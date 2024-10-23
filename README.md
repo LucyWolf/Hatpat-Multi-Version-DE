@@ -38,19 +38,17 @@ Für das haptische Feedback wurden zwei Vibrating Mini Motoren verwendet, um ein
 ### Hier ist der Schaltplan.
 ![378893354-243acea6-37cc-4932-948d-9416ec73516d](https://github.com/user-attachments/assets/62f9f993-bea8-4709-9126-896830231749)
 
-
-____________________________________________________
-
-### Gehäuse
-Das 3D-Modell und die STEP-Datei des Gehäuses, die Platz für die Motor Discs und den ESP8266 (WEMOS D1 MINI) sowie den XIAO ESP32-C3 bieten, sind im Verzeichnis /model verfügbar und können 3D-gedruckt werden. Alternativ kannst du ein normales Kopfband verwenden und die Motor Discs sowie den ESP einfach mit Heißkleber auf einem Kopfband befestigen.
-
-
 ### Battery
 Für das Laden und die Stromversorgung des Geräts wird ein TP4056 verwendet. Um den Batteriestand zu messen, füge einen 180 kOhm Widerstand an Pin A0 hinzu und aktiviere Battery sense im Skript. Siehe das Schaltbild, um zu erfahren, wie es angeschlossen wird. Dafür werden auch zwei 1N5817-Dioden verwendet, um sicherzustellen, dass das Gerät auch während der Nutzung geladen werden kann.
 
 >   [Hinweis] 
 >   Das kleine Lademodul wird von den neuen Ladegeräten unterstützt.
-(füge bild ein)
+![image](https://github.com/user-attachments/assets/fe0c0cc5-658e-45f6-974f-cefb58357bf8)
+
+____________________________________________________
+
+### Gehäuse
+Das 3D-Modell und die STEP-Datei des Gehäuses, die Platz für die Motor Discs und den ESP8266 (WEMOS D1 MINI) sowie den XIAO ESP32-C3 bieten, sind im Verzeichnis /model verfügbar und können 3D-gedruckt werden. Alternativ kannst du ein normales Kopfband verwenden und die Motor Discs sowie den ESP einfach mit Heißkleber auf einem Kopfband befestigen.
 
 ### PCB
 Optional kannst du eine Leiterplatte (PCB) für den Patstrap bestellen. Die benötigten Gerber-Dateien für die Bestellung findest du hier. Vielen Dank an The-Prophet für die Erstellung der PCB.
