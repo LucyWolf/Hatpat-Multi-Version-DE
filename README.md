@@ -13,6 +13,10 @@ Ein Open-Hardware- und Softwareprojekt, das versucht, haptisches Feedback durch 
 
 >   [!WARNING]
 >   Dieses Projekt befindet sich in der Entwicklungsphase. Bitte beachte, dass die Komponenten des Projekts häufigen Änderungen unterliegen.
+
+### Elektronik
+Es wurde für einen ESP8266 (WEMOS D1 MINI) und für einen XIAO ESP32-C3 angepasst.
+Für das haptische Feedback wurden zwei Vibrating Mini Motoren verwendet, um ein räumliches Feedback am Kopf zu erzeugen.
 __________________________________________________
 ###    Das ist der Bauplan für den ESP D1 Mini.
 
@@ -31,9 +35,7 @@ Und optional, wenn du einen Akku verwendest:
 - [Battery charger](https://de.aliexpress.com/item/1005006274938832.html)
 - [On/Off switch](https://aliexpress.com/item/1005003938856402.html)
 
-### Elektronik
-Es wurde für einen ESP8266 (WEMOS D1 MINI) und für einen XIAO ESP32-C3 angepasst.
-Für das haptische Feedback wurden zwei Vibrating Mini Motoren verwendet, um ein räumliches Feedback am Kopf zu erzeugen.
+
 
 ### Hier ist der Schaltplan.
 ![378893354-243acea6-37cc-4932-948d-9416ec73516d](https://github.com/user-attachments/assets/62f9f993-bea8-4709-9126-896830231749)
@@ -48,6 +50,28 @@ Für das Laden und die Stromversorgung des Geräts wird ein TP4056 verwendet. Um
 ![image](https://github.com/user-attachments/assets/fe0c0cc5-658e-45f6-974f-cefb58357bf8)
 
 ____________________________________________________
+###    Das ist der Bauplan für den Seeed Xiao ESP32C3.
+
+## Hardware
+### Teile
+Um dieses Projekt zu realisieren, benötigst du:
+- [ESP8266 WEMOS D1 Mini V4.0.0](https://de.aliexpress.com/item/1005006246661815.html) If you use a different ESP, you may need to change the pins in the code.
+- 2x [150KΩ Resistors](https://de.aliexpress.com/item/1005001627995396.html)
+- 2x [Transistors](https://de.aliexpress.com/item/1005003450640801.html)  (I used BC547)
+- 2x [Vibrating motors](https://aliexpress.com/item/1005001446097852.html)
+
+Und optional, wenn du einen Akku verwendest:
+- 2x [180KΩ Resistors](https://de.aliexpress.com/item/1005001627995396.html)
+- 1x [Diodes 1N5817](https://de.aliexpress.com/item/1005002620053985.html)
+- [Battery](https://www.amazon.com/dp/B0B7N2T1TD?psc=1&ref=ppx_yo2ov_dt_b_product_details)
+- [On/Off switch](https://aliexpress.com/item/1005003938856402.html)
+
+![Seeed Xiao ESP32C3](https://github.com/user-attachments/assets/f2bc150c-dc54-4d7a-97c6-aec47bcf75b4)
+
+
+_________________________________________________________________
+
+
 
 ### Gehäuse
 Das 3D-Modell und die STEP-Datei des Gehäuses, die Platz für die Motor Discs und den ESP8266 (WEMOS D1 MINI) sowie den XIAO ESP32-C3 bieten, sind im Verzeichnis /model verfügbar und können 3D-gedruckt werden. Alternativ kannst du ein normales Kopfband verwenden und die Motor Discs sowie den ESP einfach mit Heißkleber auf einem Kopfband befestigen.
