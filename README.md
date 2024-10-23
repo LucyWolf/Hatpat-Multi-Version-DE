@@ -49,6 +49,12 @@ Für das Laden und die Stromversorgung des Geräts wird ein TP4056 verwendet. Um
 
 ![image](https://github.com/user-attachments/assets/fe0c0cc5-658e-45f6-974f-cefb58357bf8)
 
+Achte darauf, dass in der main.cpp auch das Board ausgewählt ist. Der ESP D1 Mini ist standardmäßig aktiv.
+```main.cpp
+// Select the board you are using
+#define BOARD BOARD_WEMOSD1MINI // Change this to BOARD_XIAO_ESP32C3 or BOARD_WEMOSD1MINI
+```
+
 ____________________________________________________
 ###    Das ist der Bauplan für den Seeed Xiao ESP32C3.
 
@@ -71,7 +77,7 @@ Und optional, wenn du einen Akku verwendest:
 Achte darauf, dass in der main.cpp auch das Board ausgewählt ist.
 ```main.cpp
 // Select the board you are using
-#define BOARD BOARD_WEMOSD1MINI // Change this to BOARD_XIAO_ESP32C3 or BOARD_WEMOSD1MINI
+#define BOARD BOARD_XIAO_ESP32C3 // Change this to BOARD_XIAO_ESP32C3 or BOARD_WEMOSD1MINI
 ```
 _________________________________________________________________
 
