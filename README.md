@@ -27,3 +27,9 @@ Falls du dies noch nicht eingerichtet hast, folge diesen Schritten:
    ```ini
    -DWIFI_CREDS_SSID='"Dein_WLAN_Name"'
    -DWIFI_CREDS_PASSWD='"Dein_WLAN_Passwort"'
+
+Netzwerk sicherstellen
+Stelle sicher, dass sich dein Computer und der ESP im gleichen WLAN befinden, damit die Kommunikation funktioniert.
+Board und Pin-Layout anpassen
+Board auswählen
+In der Datei platformio.ini kannst du das Board definieren. Wenn du nicht den ESP8266 (esp12e) verwendest, musst du das Board wie folgt anpassen:
