@@ -68,7 +68,10 @@ Und optional, wenn du einen Akku verwendest:
 
 ![Seeed Xiao ESP32C3](https://github.com/user-attachments/assets/f2bc150c-dc54-4d7a-97c6-aec47bcf75b4)
 
+Achte darauf, dass in der main.cpp auch das Board ausgewählt ist.
 
+// Select the board you are using
+#define BOARD BOARD_WEMOSD1MINI // Change this to BOARD_XIAO_ESP32C3 or BOARD_WEMOSD1MINI
 _________________________________________________________________
 
 
