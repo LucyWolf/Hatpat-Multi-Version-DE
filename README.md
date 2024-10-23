@@ -44,6 +44,7 @@ Für das Laden und die Stromversorgung des Geräts wird ein TP4056 verwendet. Um
 >   [Hinweis] 
 >   Das kleine Lademodul wird von den neuen Ladegeräten unterstützt.
 
+
 ![image](https://github.com/user-attachments/assets/fe0c0cc5-658e-45f6-974f-cefb58357bf8)
 
 ____________________________________________________
