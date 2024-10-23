@@ -203,9 +203,6 @@ Unter "Releases" finden Sie die Binärdateien, um den Server auf Ihrem Computer 
 *   Dauerhaftes Licht: Verbunden.
 *   Kein Licht: Vielleicht nicht eingeschaltet?
 
-Wenn die Verbindung erfolgreich war, sollte Patstrap connection grün werden. Außerdem könnt ihr die Hardware testen, indem ihr auf Pat left und Pat right klickt.
-
-(bild)
 
 #### Port
 Du kannst den OSC-Port sowie den Port zum ESP ändern, indem du ein Startargument hinzufügst.
