@@ -35,7 +35,9 @@ Es wurde für einen ESP8266 (WEMOS D1 MINI) und für einen XIAO ESP32-C3 angepas
 Für das haptische Feedback wurden zwei Vibrating Mini Motoren verwendet, um ein räumliches Feedback am Kopf zu erzeugen.
 
 ### Hier ist der Schaltplan.
-(hier bild schaltplan)
+![378893354-243acea6-37cc-4932-948d-9416ec73516d](https://github.com/user-attachments/assets/62f9f993-bea8-4709-9126-896830231749)
+
+
 
 ### Gehäuse
 Das 3D-Modell und die STEP-Datei des Gehäuses, die Platz für die Motor Discs und den ESP8266 (WEMOS D1 MINI) sowie den XIAO ESP32-C3 bieten, sind im Verzeichnis /model verfügbar und können 3D-gedruckt werden. Alternativ kannst du ein normales Kopfband verwenden und die Motor Discs sowie den ESP einfach mit Heißkleber auf einem Kopfband befestigen.
