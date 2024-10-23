@@ -41,9 +41,8 @@ Für das haptische Feedback wurden zwei Vibrating Mini Motoren verwendet, um ein
 ### Battery
 Für das Laden und die Stromversorgung des Geräts wird ein TP4056 verwendet. Um den Batteriestand zu messen, füge einen 180 kOhm Widerstand an Pin A0 hinzu und aktiviere Battery sense im Skript. Siehe das Schaltbild, um zu erfahren, wie es angeschlossen wird. Dafür werden auch zwei 1N5817-Dioden verwendet, um sicherzustellen, dass das Gerät auch während der Nutzung geladen werden kann.
 
->   [!WARNING]
-
-Das kleine Lademodul wird von den neuen Ladegeräten unterstützt.
+>    [!WARNING]
+>    Das kleine Lademodul wird von den neuen Ladegeräten unterstützt.
 
 
 ![image](https://github.com/user-attachments/assets/fe0c0cc5-658e-45f6-974f-cefb58357bf8)
