@@ -18,13 +18,14 @@ Ein Open-Hardware- und Softwareprojekt, das versucht, haptisches Feedback durch 
 ## Hardware
 ### Teile
 Um dieses Projekt zu realisieren, benötigst du:
-- [ESP8266](https://amzn.eu/d/bY3lHOE) If you use a different ESP, you may need to change the pins in the code.
-- 2x [150Ω Resistors](https://aliexpress.com/item/1005006362959267.html)
-- 2x [Transistors](https://aliexpress.com/item/1005005755402536.html)  (I used BC547)
+- [ESP8266 WEMOS D1 Mini V4.0.0](https://de.aliexpress.com/item/1005006246661815.html) If you use a different ESP, you may need to change the pins in the code.
+- 2x [150KΩ Resistors](https://de.aliexpress.com/item/1005001627995396.html)
+- 2x [Transistors](https://de.aliexpress.com/item/1005003450640801.html)  (I used BC547)
 - 2x [Vibrating motors](https://aliexpress.com/item/1005001446097852.html)
 
 Und optional, wenn du einen Akku verwendest:
-- 2x [Diodes](https://aliexpress.com/item/1005006054373731.html)
+- 1x [180KΩ Resistors](https://de.aliexpress.com/item/1005001627995396.html)
+- 2x [Diodes 1N5817](https://de.aliexpress.com/item/1005002620053985.html)
 - [Battery](https://www.amazon.com/dp/B0B7N2T1TD?psc=1&ref=ppx_yo2ov_dt_b_product_details)
 - [Battery charger](https://de.aliexpress.com/item/1005006274938832.html)
 - [On/Off switch](https://aliexpress.com/item/1005003938856402.html)
