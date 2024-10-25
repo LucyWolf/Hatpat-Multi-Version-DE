@@ -31,7 +31,7 @@ Und optional, wenn du einen Akku verwendest:
 
 
 ### Hier ist der Schaltplan.
-![378893354-243acea6-37cc-4932-948d-9416ec73516d](https://github.com/user-attachments/assets/62f9f993-bea8-4709-9126-896830231749)
+(Bild hinzufügen)
 
 ### Battery
 Für das Laden und die Stromversorgung des Geräts wird ein TP4056 verwendet. Um den Batteriestand zu messen, füge einen 180 kOhm Widerstand an Pin A0 hinzu und aktiviere Battery sense im Skript. Siehe das Schaltbild, um zu erfahren, wie es angeschlossen wird. Dafür werden auch zwei 1N5817-Dioden verwendet, um sicherzustellen, dass das Gerät auch während der Nutzung geladen werden kann.
