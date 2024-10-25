@@ -39,8 +39,8 @@ Für das Laden und die Stromversorgung des Geräts wird ein TP4056 verwendet. Um
 >    [!WARNING]
 >    Das kleine Lademodul wird von den neuen Ladegeräten unterstützt.
 
+(Bild hinzufügen)
 
-![image](https://github.com/user-attachments/assets/fe0c0cc5-658e-45f6-974f-cefb58357bf8)
 
 Achte darauf, dass in der main.cpp auch das Board ausgewählt ist. Der ESP D1 Mini ist standardmäßig aktiv.
 ```main.cpp
@@ -88,7 +88,7 @@ Und optional, wenn du einen Akku verwendest:
 - [Battery](https://www.amazon.com/dp/B0B7N2T1TD?psc=1&ref=ppx_yo2ov_dt_b_product_details)
 - [On/Off switch](https://aliexpress.com/item/1005003938856402.html)
 
-![Seeed Xiao ESP32C3](https://github.com/user-attachments/assets/f2bc150c-dc54-4d7a-97c6-aec47bcf75b4)
+(Bild hinzufügen)
 
 Achte darauf, dass in der main.cpp auch das Board ausgewählt ist.
 ```main.cpp
