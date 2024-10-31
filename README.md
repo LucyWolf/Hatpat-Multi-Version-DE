@@ -17,7 +17,7 @@ __________________________________________________
 ### Teile
 Um dieses Projekt zu realisieren, benötigst du:
 - [ESP8266 WEMOS D1 Mini V4.0.0](https://de.aliexpress.com/item/1005006246661815.html) If you use a different ESP, you may need to change the pins in the code.
-- 2x [150RΩ Resistors](https://de.aliexpress.com/item/1005001627995396.html)
+- 2x [470RΩ Resistors](https://de.aliexpress.com/item/1005001627995396.html)
 - 2x [Transistors](https://de.aliexpress.com/item/1005003450640801.html)  (I used BC547)
 - 2x [Vibrating motors](https://aliexpress.com/item/1005001446097852.html)
 
@@ -223,3 +223,6 @@ Wenn du [VRCOSC](https://github.com/VolcanicArts/VRCOSC) verwendest, kannst du d
 ### VRChat
 #### Avatar - Unity
 Damit der Patstrap funktioniert, musst du [OSC-Unterstützung in VRChat aktivieren](https://docs.slimevr.dev/server/osc-information.html) und dein Avatar-Modell bearbeiten, um die erforderlichen Collider für die Erkennung von Kopfstreicheleinheiten einzufügen. Dafür benötigst du ein funktionierendes Avatar-Setup in Unity.
+
+Der 470Ω-Widerstand, der an die Basis des BC547B Transistors angeschlossen ist, hat die Aufgabe, den Strom, der zur Basis fließt, zu begrenzen, um den Transistor zu schützen und sicherzustellen, dass er im aktiven Bereich arbeitet.
+
