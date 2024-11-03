@@ -31,7 +31,8 @@ Und optional, wenn du einen Akku verwendest:
 
 
 ### Hier ist der Schaltplan.
-![image](https://github.com/user-attachments/assets/501cc507-a5c0-4beb-a575-22812b322c8f)
+![image](https://github.com/user-attachments/assets/1cdf16ea-c69c-4881-8df9-68e008b316eb)
+
 
 
 ### Battery
