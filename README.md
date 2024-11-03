@@ -89,7 +89,8 @@ Und optional, wenn du einen Akku verwendest:
 - [Battery](https://www.amazon.com/dp/B0B7N2T1TD?psc=1&ref=ppx_yo2ov_dt_b_product_details)
 - [On/Off switch](https://aliexpress.com/item/1005003938856402.html)
 
-(Bild hinzufügen)
+![image](https://github.com/user-attachments/assets/0a27c3f1-24bf-4308-aa50-77f5e76c04d5)
+
 
 Achte darauf, dass in der main.cpp auch das Board ausgewählt ist.
 ```main.cpp
