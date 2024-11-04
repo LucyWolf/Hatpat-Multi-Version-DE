@@ -43,36 +43,6 @@ Für das Laden und die Stromversorgung des Geräts wird ein TP4056 verwendet. Um
 
 (Bild hinzufügen)
 
-
-Achte darauf, dass in der main.cpp auch das Board ausgewählt ist. Der ESP D1 Mini ist standardmäßig aktiv.
-```main.cpp
-// Select the board you are using
-#define BOARD BOARD_WEMOSD1MINI // Change this to BOARD_XIAO_ESP32C3 or BOARD_WEMOSD1MINI
-```
-
-Achte auch in der platformio.ini darauf, dass es so aussieht: Der ESP D1 Mini ist standardmäßig aktiv.
-
-```platformio.ini
-; For Seeed Xiao ESP32C3
-
-;[env:seeed_xiao_esp32c3]
-;platform = espressif32
-;board = seeed_xiao_esp32c3
-;framework = arduino
-;build_flags =
-;  ${env.build_flags}
-;  -DBOARD_XIAO_ESP32C3
-;  -DESP32C3
-
-; For Wemos D1 Mini
-
-[env:esp12e]
-platform = espressif8266
-board = esp12e
-framework = arduino
-upload_speed = 921600
-monitor_speed = 115200
-```
 ____________________________________________________
 ###    Das ist der Bauplan für den Seeed Xiao ESP32C3.
 
@@ -93,34 +63,7 @@ Und optional, wenn du einen Akku verwendest:
 ![image](https://github.com/user-attachments/assets/0a27c3f1-24bf-4308-aa50-77f5e76c04d5)
 
 
-Achte darauf, dass in der main.cpp auch das Board ausgewählt ist.
-```main.cpp
-// Select the board you are using
-#define BOARD BOARD_XIAO_ESP32C3 // Change this to BOARD_XIAO_ESP32C3 or BOARD_WEMOSD1MINI
-```
-Achte auch in der platformio.ini darauf, dass es so aussieht:
 
-```platformio.ini
-; For Seeed Xiao ESP32C3
-
-[env:seeed_xiao_esp32c3]
-platform = espressif32
-board = seeed_xiao_esp32c3
-framework = arduino
-build_flags =
-  ${env.build_flags}
-  -DBOARD_XIAO_ESP32C3
-  -DESP32C3
-
-; For Wemos D1 Mini
-
-;[env:esp12e]
-;platform = espressif8266
-;board = esp12e
-;framework = arduino
-;upload_speed = 921600
-;monitor_speed = 115200
-```
 _________________________________________________________________
 
 
