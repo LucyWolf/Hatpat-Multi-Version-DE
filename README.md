@@ -18,7 +18,7 @@ __________________________________________________
 Um dieses Projekt zu realisieren, benötigst du:
 - [ESP8266 WEMOS D1 Mini V4.0.0](https://de.aliexpress.com/item/1005006246661815.html) If you use a different ESP, you may need to change the pins in the code.
 - 2x [470RΩ Resistors](https://de.aliexpress.com/item/1005001627995396.html)
-- 2x [Transistors](https://de.aliexpress.com/item/1005003450640801.html)  (I used BC547)
+- 2x [Transistors BC547B](https://de.aliexpress.com/item/1005003450640801.html)
 - 2x [Vibrating motors](https://aliexpress.com/item/1005001446097852.html)
 
 Und optional, wenn du einen Akku verwendest:
@@ -52,7 +52,7 @@ ____________________________________________________
 Um dieses Projekt zu realisieren, benötigst du:
 - [ESP8266 WEMOS D1 Mini V4.0.0](https://de.aliexpress.com/item/1005006246661815.html) If you use a different ESP, you may need to change the pins in the code.
 - 2x [470RΩ Resistors](https://de.aliexpress.com/item/1005001627995396.html)
-- 2x [Transistors](https://de.aliexpress.com/item/1005003450640801.html)  (I used BC547)
+- 2x [Transistors BC547B](https://de.aliexpress.com/item/1005003450640801.html)  (I used BC547)
 - 2x [Vibrating motors](https://aliexpress.com/item/1005001446097852.html)
 
 Und optional, wenn du einen Akku verwendest:
