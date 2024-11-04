@@ -92,46 +92,13 @@ Die Akkuangabe ist bereits aktiv, wenn du das Skript das erste Mal öffnest, und
 
 Ihre Konfigurationsdatei sollte ungefähr so aussehen:
 ```ini
-[env]
-monitor_speed = 115200
-monitor_echo = yes
-monitor_filters = colorize
-framework = arduino
-
-build_unflags = -Os
-build_flags = -O2
-; Set your WiFi name and password here - Make sure it's within the same Network as the server software!
   -DWIFI_CREDS_SSID='"WLAN Name"'
   -DWIFI_CREDS_PASSWD='"WLAN Passwort"'
-
-; Uncomment below ONLY if you used a PNP transistor, if you followed the guide you probably want to leave it commented. => inverts the output of the haptic motors
-;  -DUSE_PNP
-
-; Uncomment below if you want to measure battery
+  -DPORT=8888  ; Setzt den TCP-Server-Port auf 8888
+  ; Uncomment below ONLY if you used a PNP transistor
+  ; -DUSE_PNP
+  ; Uncomment below if you want to measure battery
   -DUSE_BATTERY
-
-; Define the board used
-; Uncomment one of the following lines based on the board you're using
-
-; For Seeed Xiao ESP32C3
-
-;[env:seeed_xiao_esp32c3]
-;platform = espressif32
-;board = seeed_xiao_esp32c3
-;framework = arduino
-;build_flags =
-;  ${env.build_flags}
-;  -DBOARD_XIAO_ESP32C3
-;  -DESP32C3
-
-; For Wemos D1 Mini
-
-[env:esp12e]
-platform = espressif8266
-board = esp12e
-framework = arduino
-upload_speed = 921600
-monitor_speed = 115200
 ```
 Nach Ihren Änderungen können Sie Ihren ESP anschließen, auf "Build" (✓) klicken und es flashen (→). 
 Die Schaltflächen finden Sie in Visual Studio Code unten auf der linken Seite.
