@@ -105,9 +105,7 @@ Die Schaltflächen finden Sie in Visual Studio Code unten auf der linken Seite.
 
 (bild hinzufügen)
 
-In der main.cpp müsst ihr das Board auswählen, das ihr verwendet. Standardmäßig ist bereits das ESP D1 Mini ausgewählt.
 
-(bild einfügen)
 
 ### Server
 Unter "Releases" finden Sie die Binärdateien, um den Server auf Ihrem Computer auszuführen. Der Server fungiert als Mittelsmann, der die Kommunikation zwischen dem Gerät und VRChat ermöglicht. Der Server unterstützt sowohl Windows als auch Linux. Er öffnet ein Fenster, in dem der aktuelle Verbindungsstatus angezeigt wird. Wenn das Flashen der Hardware erfolgreich war und das Gerät läuft, sollten Sie den Text connected sehen. Sie können die Verbindung auch überprüfen, indem Sie die ESP-LED beobachten.
