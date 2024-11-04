@@ -41,7 +41,8 @@ Für das Laden und die Stromversorgung des Geräts wird ein TP4056 verwendet. Um
 >    [!WARNING]
 >    Das kleine Lademodul wird von den neuen Ladegeräten unterstützt.
 
-(Bild hinzufügen)
+![image](https://github.com/user-attachments/assets/dc4baed0-cdba-4ec2-9485-e3d146c1e255)
+
 
 ____________________________________________________
 ###    Das ist der Bauplan für den Seeed Xiao ESP32C3.
