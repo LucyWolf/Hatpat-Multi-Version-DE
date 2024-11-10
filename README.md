@@ -91,8 +91,8 @@ Um die Firmware auf den ESP hochzuladen, verwenden wir Visual Studio Code und Pl
 
 -DWIFI_CREDS_SSID='"WLAN Name"'
 -DWIFI_CREDS_PASSWD='"WLAN Passwort"'
-Entferne das ;, um das Board zu wechseln oder andere Module ein- oder auszuschalten. 
-Die Akkuangabe ist bereits aktiv, wenn du das Skript das erste Mal öffnest, und der ESP D1 Mini ist ebenfalls aktiv.
+Entferne das ; andere Module ein- oder auszuschalten. 
+Die Akkuangabe ist bereits aktiv, wenn du das Skript das erste Mal öffnest,
 
 Ihre Konfigurationsdatei sollte ungefähr so aussehen:
 ```ini
