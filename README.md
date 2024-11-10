@@ -8,10 +8,11 @@ Ein Open-Hardware- und Softwareprojekt, das versucht, haptisches Feedback durch 
 >   Dieses Projekt befindet sich in der Entwicklungsphase. Bitte beachte, dass die Komponenten des Projekts häufigen Änderungen unterliegen.
 
 ### Elektronik
-Es wurde für einen ESP8266 (WEMOS D1 MINI) und für einen XIAO ESP32-C3 angepasst.
+Es wurde für einen ESP8266 (WEMOS D1 MINI)
 Für das haptische Feedback wurden zwei Vibrating Mini Motoren verwendet, um ein räumliches Feedback am Kopf zu erzeugen.
 __________________________________________________
 ###    Das ist der Bauplan für den ESP D1 Mini.
+# Getestet ✓
 
 ## Hardware
 ### Teile
