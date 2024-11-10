@@ -47,7 +47,7 @@ Für das Laden und die Stromversorgung des Geräts wird ein TP4056 verwendet. Um
 
 ____________________________________________________
 ###    Das ist der Bauplan für den Seeed Xiao ESP32C3.
-# Nicht Getestet 
+# motoren gehen aber akku monitor nicht
 
 ## Hardware
 ### Teile
