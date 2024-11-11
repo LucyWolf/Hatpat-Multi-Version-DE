@@ -1,6 +1,7 @@
-# Hatpat
+## Hatpat
 
-
+#Dies ist ein Review
+https://github.com/danielfvm/Patstrap
 
 Ein Open-Hardware- und Softwareprojekt, das versucht, haptisches Feedback durch Kopfstreicheln (Head Pat) an den Spieler in VR zu implementieren. Dieses Projekt konzentriert sich hauptsächlich auf die OSC-Unterstützung von VRChat. Das Projekt besteht aus einem Hardwareteil, dem 'Headpat-Strap' oder einfach 'Patstrap', einem Server, der auf dem PC läuft, und den erforderlichen Änderungen an einem VRChat-Avatar, um die Kommunikation über OSC zu unterstützen. Bitte beachte, dass dies nur ein Hobbyprojekt ist, aber fühle dich frei, zu experimentieren, den Code zu bearbeiten oder die Hardware nach deinen Wünschen anzupassen.
 
@@ -44,6 +45,9 @@ Für das Laden und die Stromversorgung des Geräts wird ein TP4056 verwendet. Um
 
 ![image](https://github.com/user-attachments/assets/dc4baed0-cdba-4ec2-9485-e3d146c1e255)
 
+
+denn server daführ windet ihr unter dem orginal 
+https://github.com/danielfvm/Patstrap
 
 ____________________________________________________
 ###    Das ist der Bauplan für den Seeed Xiao ESP32C3.
