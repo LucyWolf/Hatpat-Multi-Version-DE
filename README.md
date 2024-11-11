@@ -46,7 +46,7 @@ Für das Laden und die Stromversorgung des Geräts wird ein TP4056 verwendet. Um
 ![image](https://github.com/user-attachments/assets/dc4baed0-cdba-4ec2-9485-e3d146c1e255)
 
 
-denn server daführ windet ihr unter dem orginal 
+# denn server daführ windet ihr unter dem orginal 
 https://github.com/danielfvm/Patstrap
 
 ____________________________________________________
@@ -72,7 +72,8 @@ Und optional, wenn du einen Akku verwendest:
 ![image](https://github.com/user-attachments/assets/0a27c3f1-24bf-4308-aa50-77f5e76c04d5)
 
 
-
+# denn server daführ windet ihr unter dem orginal 
+https://github.com/danielfvm/Patstrap
 _________________________________________________________________
 
 
