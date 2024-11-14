@@ -58,7 +58,7 @@ ____________________________________________________
 ## Hardware
 ### Teile
 Um dieses Projekt zu realisieren, benötigst du:
-- [Seeed Studio XIAO ESP32-C3](https://de.aliexpress.com/item/1005006353129383.htm) If you use a different ESP, you may need to change the pins in the code.
+- [Seeed Studio XIAO ESP32-C3](https://de.aliexpress.com/item/1005006353129383.html) If you use a different ESP, you may need to change the pins in the code.
 - 2x [470RΩ Resistors](https://de.aliexpress.com/item/1005001627995396.html)
 - 2x [Transistors BC547B](https://de.aliexpress.com/item/1005003450640801.html) 
 - 2x [Vibrating motors](https://aliexpress.com/item/1005001446097852.html)
