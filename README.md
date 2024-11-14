@@ -112,7 +112,7 @@ Ihre Konfigurationsdatei sollte ungefähr so aussehen:
 Nach Ihren Änderungen können Sie Ihren ESP anschließen, auf "Build" (✓) klicken und es flashen (→). 
 Die Schaltflächen finden Sie in Visual Studio Code unten auf der linken Seite.
 
-(bild hinzufügen)
+![flash](https://github.com/user-attachments/assets/c973cdf5-cc77-4695-b625-f5dc28718ac0)
 
 
 
